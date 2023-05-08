@@ -1,0 +1,98 @@
+DEBUG 2023-05-07 21:52:00,978 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-05-07 21:52:01,914 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2023-05-07 21:52:01,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.Web.Startup.LibrarySystemWebMvcModule, LibrarySystem.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.LibrarySystemWebCoreModule, LibrarySystem.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.LibrarySystemApplicationModule, LibrarySystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.LibrarySystemCoreModule, LibrarySystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.EntityFrameworkCore.LibrarySystemEntityFrameworkModule, LibrarySystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:01,941 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2023-05-07 21:52:02,601 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 21:52:02,602 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 21:52:02,602 [1    ] o.Configuration.LanguageManagementConfig - Converted LibrarySystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 21:52:02,602 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 21:52:04,253 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LibrarySystem.EntityFrameworkCore.LibrarySystemDbContext, LibrarySystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 21:52:04,451 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-05-07 21:52:04,663 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-05-07 21:52:04,697 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-05-07 21:52:04,711 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LibrarySystem
+DEBUG 2023-05-07 21:52:04,719 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-05-07 23:31:33,495 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-05-07 23:31:33,878 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2023-05-07 23:31:33,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.Web.Startup.LibrarySystemWebMvcModule, LibrarySystem.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.LibrarySystemWebCoreModule, LibrarySystem.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.LibrarySystemApplicationModule, LibrarySystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.LibrarySystemCoreModule, LibrarySystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibrarySystem.EntityFrameworkCore.LibrarySystemEntityFrameworkModule, LibrarySystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:33,953 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2023-05-07 23:31:34,503 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 23:31:34,504 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 23:31:34,504 [1    ] o.Configuration.LanguageManagementConfig - Converted LibrarySystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 23:31:34,504 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-07 23:31:36,165 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LibrarySystem.EntityFrameworkCore.LibrarySystemDbContext, LibrarySystem.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-07 23:31:36,445 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-05-07 23:31:36,790 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-05-07 23:31:36,811 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-05-07 23:31:36,831 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LibrarySystem
+DEBUG 2023-05-07 23:31:36,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+FATAL 2023-05-07 23:35:45,567 [1    ] Abp.AbpBootstrapper                      - System.ArgumentNullException: Value cannot be null. (Parameter 'name')
+   at Abp.Check.NotNull[T](T value, String parameterName)
+   at Abp.Application.Navigation.MenuItemDefinition..ctor(String name, ILocalizableString displayName, String icon, String url, Boolean requiresAuthentication, Int32 order, Object customData, IFeatureDependency featureDependency, String target, Boolean isEnabled, Boolean isVisible, IPermissionDependency permissionDependency)
+   at LibrarySystem.Web.Startup.LibrarySystemNavigationProvider.SetNavigation(INavigationProviderContext context) in C:\Users\celis\Documents\LibrarySystem\aspnet-core\src\LibrarySystem.Web.Mvc\Startup\LibrarySystemNavigationProvider.cs:line 15
+   at Abp.Application.Navigation.NavigationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.ArgumentNullException: Value cannot be null. (Parameter 'name')
+   at Abp.Check.NotNull[T](T value, String parameterName)
+   at Abp.Application.Navigation.MenuItemDefinition..ctor(String name, ILocalizableString displayName, String icon, String url, Boolean requiresAuthentication, Int32 order, Object customData, IFeatureDependency featureDependency, String target, Boolean isEnabled, Boolean isVisible, IPermissionDependency permissionDependency)
+   at LibrarySystem.Web.Startup.LibrarySystemNavigationProvider.SetNavigation(INavigationProviderContext context) in C:\Users\celis\Documents\LibrarySystem\aspnet-core\src\LibrarySystem.Web.Mvc\Startup\LibrarySystemNavigationProvider.cs:line 15
+   at Abp.Application.Navigation.NavigationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2023-05-07 23:39:08,470 [1    ] Microsoft.AspNetCore.Hosting.Diagnostics - Application startup exception
+System.ArgumentNullException: Value cannot be null. (Parameter 'name')
+   at Abp.Check.NotNull[T](T value, String parameterName)
+   at Abp.Application.Navigation.MenuItemDefinition..ctor(String name, ILocalizableString displayName, String icon, String url, Boolean requiresAuthentication, Int32 order, Object customData, IFeatureDependency featureDependency, String target, Boolean isEnabled, Boolean isVisible, IPermissionDependency permissionDependency)
+   at LibrarySystem.Web.Startup.LibrarySystemNavigationProvider.SetNavigation(INavigationProviderContext context)
+   at Abp.Application.Navigation.NavigationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app)
+   at LibrarySystem.Web.Startup.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
